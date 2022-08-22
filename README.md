@@ -28,7 +28,6 @@
 2. 由于 ts 不支持 `Auto.js` 中 `用户界面(UI)` 相关函数(如 `ui.layout(xml)`), 需要特殊转换  
    2.1 将 `xml` 独立成文件, 如 `layout.xml`  
    2.2 在 `xml` 文件 头部添加注释 `<!-- wrap: 调用方法 -->`, 如:
-
    ```xml
    <!-- wrap: ui.layout -->
    <!-- 正常 XML -->
@@ -100,8 +99,6 @@
 
 - 构建成单独 `App` 请看 [.github/workflows/build.yml](./.github/workflows/build.yml)
 
-## Thanks
-
-
+#@# Thanks
 1. [Auto.js](https://github.com/hyb1996/Auto.js)
 2. [autojs-dev](https://github.com/pboymt/autojs-dev)
